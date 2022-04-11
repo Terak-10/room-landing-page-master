@@ -2,18 +2,11 @@
 - Mobile: 375px
 - Desktop: 1440px
 
-
-### Body Copy
-
-- Font size: 12px
-
 ### Font
 
 - Family: [Spartan](https://fonts.google.com/specimen/Spartan)
+- font-family: 'Spartan', sans-serif;
 - Weights: 500, 600, 700
-
-
-
 
 
 
