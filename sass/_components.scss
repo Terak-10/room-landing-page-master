@@ -1,0 +1,30 @@
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem 0 0 6.5rem;
+    width: 50%;
+
+     
+    &_logo {
+
+    }
+
+    &_ul {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        width: 65%;
+    }
+
+    &_item {
+    
+    }
+
+    &_link:link,
+    &_link:visited {
+        text-decoration: none;
+        color: var(--White);
+        font-weight: 700;
+    }
+}

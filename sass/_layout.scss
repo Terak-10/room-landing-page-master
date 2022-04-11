@@ -1,0 +1,36 @@
+.container {
+    max-width: 1440px;
+    background-color: red;
+    min-height: 80vh;
+    margin: 7rem auto;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr;
+}
+
+.top {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.left-side {
+   grid-column: 1 / 2;
+   background-image: url(/images/desktop-image-hero-1.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.right-side {
+    grid-column: 2 / 3;
+}
+
+.botoom {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
