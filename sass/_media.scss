@@ -1,0 +1,19 @@
+@media (max-width: 1050px) {
+    .text-box {
+        height: 40vh;
+        width: 35vw;
+        margin-top: 7rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .middle {
+        &_text-box {
+            min-height: 20vh;
+            padding: 0 3rem;
+        }
+    }
+}
+
+///// Tablet version
