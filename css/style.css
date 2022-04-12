@@ -265,7 +265,7 @@ body {
     .bottom {
       display: grid;
       grid-template-columns: 1fr;
-      grid-template-rows: repeat(3, minmax(50vh, 40vw)); } }
+      grid-template-rows: repeat(3, minmax(30vh, 40vw)); } }
 
 @media screen and (max-width: 940px) {
   .img-1 {
