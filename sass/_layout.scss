@@ -6,6 +6,10 @@
     grid-template-columns: 1fr;
     grid-template-rows: 2fr 1fr;
 
+    @media screen and (max-width: 1440px) {
+        margin: 0;
+    }
+
     @media screen and (max-width: 940px) {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2, minmax(min-content, max-content));
@@ -68,7 +72,7 @@
     @media screen and (max-width: 940px) {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows:  repeat(3, minmax(min-content, 40vw));
+        grid-template-rows:  repeat(3, minmax(50vh, 40vw));
     }
 }
 
