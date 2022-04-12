@@ -25,10 +25,10 @@ body {
   align-items: center;
   padding: 5rem 0 0 6.5rem;
   width: 50%; }
-  @media (max-width: 58.75em) {
+  @media screen and (max-width: 58.75em) {
     .nav-bar {
       width: 65%; } }
-  @media (max-width: 28.125em) {
+  @media screen and (max-width: 28.125em) {
     .nav-bar {
       width: 55%;
       padding: 5rem 0 0 3.5rem; } }
@@ -36,7 +36,7 @@ body {
     display: none;
     height: 1.7rem;
     transform: translateY(-0.2rem); }
-    @media (max-width: 450px) {
+    @media screen and (max-width: 450px) {
       .nav-bar_hamburger {
         display: inline-block; } }
   .nav-bar_ul {
@@ -44,7 +44,7 @@ body {
     justify-content: space-between;
     list-style: none;
     width: 65%; }
-    @media (max-width: 28.125em) {
+    @media screen and (max-width: 28.125em) {
       .nav-bar_ul {
         display: none; } }
   .nav-bar_link:link, .nav-bar_link:visited {
@@ -57,7 +57,7 @@ body {
   width: 26.3vw;
   margin-top: 12rem;
   align-self: center; }
-  @media (max-width: 65.625em) {
+  @media screen and (max-width: 65.625em) {
     .text-box {
       height: 40vh;
       width: 35vw;
@@ -65,7 +65,7 @@ body {
       display: flex;
       flex-direction: column;
       justify-content: center; } }
-  @media (max-width: 58.75em) {
+  @media screen and (max-width: 58.75em) {
     .text-box {
       width: 80vw;
       align-self: center;
@@ -78,7 +78,7 @@ body {
     font-size: clamp(2.5rem, 2.3vw, 3.5rem);
     margin-bottom: 3rem;
     line-height: 1.2; }
-    @media (max-width: 25.625em) {
+    @media screen and (max-width: 25.625em) {
       .text-box_h-1 {
         font-size: clamp(2rem, 2vw, 3rem); } }
   .text-box_p {
@@ -87,10 +87,10 @@ body {
     color: var(--Dark-Gray);
     line-height: 1.6;
     font-weight: 600; }
-    @media (max-width: 58.75em) {
+    @media screen and (max-width: 58.75em) {
       .text-box_p {
         font-size: clamp(1.2rem, 1vw, 2.5rem); } }
-    @media (max-width: 25.625em) {
+    @media screen and (max-width: 25.625em) {
       .text-box_p {
         font-size: clamp(0.9rem, 1vw, 2rem); } }
   .text-box_btn-box {
@@ -102,7 +102,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 1.15rem;
     font-weight: 600; }
-    @media (max-width: 25.625em) {
+    @media screen and (max-width: 25.625em) {
       .text-box_btn {
         font-size: clamp(0.65rem, 1vw, 2rem);
         letter-spacing: 0.7rem; } }
@@ -117,7 +117,7 @@ body {
   width: 10rem;
   height: 6rem;
   align-self: flex-end; }
-  @media (max-width: 58.75em) {
+  @media screen and (max-width: 58.75em) {
     .btn-940 {
       display: flex; } }
 
@@ -126,7 +126,7 @@ body {
   width: 14.7rem;
   height: 8rem;
   display: flex; }
-  @media (max-width: 58.75em) {
+  @media screen and (max-width: 58.75em) {
     .btn {
       display: none; } }
 
@@ -148,7 +148,7 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover; }
-  @media (max-width: 58.75em) {
+  @media screen and (max-width: 58.75em) {
     .img {
       object-fit: contain; } }
 
@@ -160,28 +160,28 @@ body {
     flex-direction: column;
     justify-content: center;
     padding: 0 6rem; }
-    @media (max-width: 65.625em) {
+    @media screen and (max-width: 65.625em) {
       .middle_text-box {
         min-height: 20vh;
         padding: 0 3rem; } }
-    @media (max-width: 58.75em) {
+    @media screen and (max-width: 58.75em) {
       .middle_text-box {
         min-height: 20vh;
         padding: 0 6rem; } }
-    @media (max-width: 18.75em) {
+    @media screen and (max-width: 18.75em) {
       .middle_text-box {
         text-align: center; } }
   .middle_h-3 {
     text-transform: uppercase;
     letter-spacing: 0.5rem;
     margin-bottom: 2rem; }
-    @media (max-width: 58.75em) {
+    @media screen and (max-width: 58.75em) {
       .middle_h-3 {
         font-size: clamp(2rem, 2.5vw, 3rem); } }
-    @media (max-width: 31.25em) {
+    @media screen and (max-width: 31.25em) {
       .middle_h-3 {
         font-size: clamp(1.4rem, 2vw, 3rem); } }
-    @media (max-width: 18.75em) {
+    @media screen and (max-width: 18.75em) {
       .middle_h-3 {
         font-size: clamp(1rem, 1.5vw, 2rem); } }
   .middle_p {
@@ -189,13 +189,13 @@ body {
     color: var(--Dark-Gray);
     line-height: 1.6;
     font-weight: 600; }
-    @media (max-width: 58.75em) {
+    @media screen and (max-width: 58.75em) {
       .middle_p {
         font-size: clamp(1rem, 1.5vw, 2.5rem); } }
-    @media (max-width: 31.25em) {
+    @media screen and (max-width: 31.25em) {
       .middle_p {
         font-size: clamp(0.75rem, 1.5vw, 2.2rem); } }
-    @media (max-width: 18.75em) {
+    @media screen and (max-width: 18.75em) {
       .middle_p {
         font-size: clamp(0.7rem, 1.5vw, 2rem); } }
 
@@ -206,7 +206,7 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 2fr 1fr; }
-  @media (max-width: 58.75em) {
+  @media screen and (max-width: 940px) {
     .container {
       grid-template-columns: 1fr;
       grid-template-rows: repeat(2, minmax(min-content, max-content)); } }
@@ -217,7 +217,7 @@ body {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
   grid-template-rows: 1fr; }
-  @media (max-width: 58.75em) {
+  @media screen and (max-width: 940px) {
     .top {
       display: grid;
       grid-template-columns: 1fr;
@@ -229,7 +229,7 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat; }
-  @media (max-width: 58.75em) {
+  @media screen and (max-width: 940px) {
     .left-side {
       grid-column: 1 / 2;
       grid-row: 1 / 2;
@@ -243,7 +243,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   background-color: var(--White); }
-  @media (max-width: 58.75em) {
+  @media screen and (max-width: 940px) {
     .right-side {
       grid-column: 1 / 2;
       grid-row: 2 / 3; } }
@@ -254,13 +254,13 @@ body {
   display: grid;
   grid-template-columns: 1fr 1.35fr 1fr;
   grid-template-rows: 1fr; }
-  @media (max-width: 58.75em) {
+  @media screen and (max-width: 940px) {
     .bottom {
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: repeat(3, minmax(min-content, 40vw)); } }
 
-@media (max-width: 58.75em) {
+@media screen and (max-width: 940px) {
   .img-1 {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
@@ -269,12 +269,12 @@ body {
 .middle {
   display: flex;
   align-items: center; }
-  @media (max-width: 58.75em) {
+  @media screen and (max-width: 940px) {
     .middle {
       grid-column: 1 / 2;
       grid-row: 2 / 3; } }
 
-@media (max-width: 58.75em) {
+@media screen and (max-width: 940px) {
   .img-2 {
     grid-column: 1 / 2;
     grid-row: 3 / 4;
