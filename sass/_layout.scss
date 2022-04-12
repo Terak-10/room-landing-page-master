@@ -23,7 +23,7 @@
     @media (max-width: 940px) {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-rows: minmax(40vh, 50vw) minmax(min-content, 40vw);
     }
 }
 
@@ -37,6 +37,10 @@
    @media (max-width: 940px) {
        grid-column: 1 / 2;
        grid-row: 1 / 2;
+
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
 }
 }
 
