@@ -100,3 +100,16 @@
         grid-row: 3 / 4;
    }
 }
+
+.img-display-off {
+    display: none;
+    @media screen and (max-width: 940px) {
+        display: block;
+   }
+}
+
+.img-display-on {
+    @media screen and (max-width: 940px) {
+        display: none;
+   }
+}

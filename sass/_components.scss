@@ -159,12 +159,14 @@
     height: 100%;
     width: 100%;
     display: block;
+    
 
     @media screen and (max-width: 940px) {
         object-fit: cover;
         height: 100%;
         width: 100%;
         display: block;
+        object-position: center;
     }
 }
 
