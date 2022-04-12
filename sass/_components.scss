@@ -44,28 +44,21 @@
 }
 
 .text-box {
-    height: 38vh;
-    width: 26.3vw;
-    margin-top: 12rem;
-    align-self: center;
-
-    @media screen and (max-width: 65.625em) {
-        height: 40vh;
-        width: 35vw;
-        margin-top: 7rem;
+        min-height: 18vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        padding: 0 6rem 0 7vw;
+        margin-top: 11rem;
+
+    @media screen and (max-width: 65.625em) {
+        padding: 0 3rem 0 6rem;
     }
 
     @media screen and (max-width: 58.75em) {
-        width: 80vw;
-        align-self: center;
+        min-height: 41.1vh;
+        padding: 0 6rem 0 10vw;
         margin-top: 0;
-        padding: 3rem;
-        height: 40vh;
-        text-align: center;
-        justify-content: space-evenly;
     }
 
     &_h-1 {
@@ -191,7 +184,7 @@
 
         @media screen and (max-width: 58.75em) {
             min-height: 20vh;
-            padding: 0 6rem;
+            padding: 0 6rem 0 10vw;
         }
 
         @media screen and (max-width: 18.75em) {
